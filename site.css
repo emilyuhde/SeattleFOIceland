@@ -1,0 +1,80 @@
+#main { 
+    background-color: #ffffff;
+}
+
+#toc {
+	font-size: 14px;
+	font-family:"Source Sans Pro", Tahoma, Arial, sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:13px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	text-decoration:none;
+	text-align:center;
+}
+
+#sphoto {
+	margin: 0px;
+}
+
+body {
+	font-family: "Open Sans Condensed", Tahoma, Arial, sans-serif;
+	padding: 50px 0;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	margin:0px;
+}
+
+h1 { /*big red heading*/
+	font-family: "Playfair Display SC", garamond;
+    color: #cc0000; 
+    font-size: 40px;
+	text-align: center;
+}
+
+h2 { /*event headings*/
+	font-family: "Playfair Display SC", garamond;
+    color: #000000; 
+    font-size: 18px;
+	text-align: center;
+}
+
+.cent {
+	font-family: "Abel", "Open Sans Condensed", Tahoma, Arial, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	max-width: 80%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.just {
+	font-family: "Abel", "Open Sans Condensed", Tahoma, Arial, sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	max-width: 80%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+/* unvisited link */
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #E60000;
+}
+
+/* selected link */
+a:active {
+     color: #E60000;
+}

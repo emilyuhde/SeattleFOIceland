@@ -12,6 +12,7 @@
 	letter-spacing:2px;
 	text-decoration:none;
 	text-align:center;
+	color:#202020;
 }
 
 #sphoto {
@@ -19,7 +20,7 @@
 }
 
 body {
-	font-family: "Open Sans Condensed", Tahoma, Arial, sans-serif;
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
 	padding: 50px 0;
 	font-size: 15px;
 	font-style: normal;
@@ -30,20 +31,22 @@ body {
 h1 { /*big red heading*/
 	font-family: "Playfair Display SC", garamond;
     color: #cc0000; 
-    font-size: 40px;
+    font-size: 42px;
 	text-align: center;
 }
 
 h2 { /*event headings*/
 	font-family: "Playfair Display SC", garamond;
-    color: #000000; 
+    color: #202020; 
     font-size: 18px;
 	text-align: center;
 }
 
 .cent {
-	font-family: "Abel", "Open Sans Condensed", Tahoma, Arial, sans-serif;
-	font-size: 18px;
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: light;
+	color: #202020;
 	text-align: center;
 	max-width: 80%;
 	padding-left:10%;
@@ -51,8 +54,10 @@ h2 { /*event headings*/
 }
 
 .just {
-	font-family: "Abel", "Open Sans Condensed", Tahoma, Arial, sans-serif;
-	font-size: 18px;
+	font-family: "Open Sans", Tahoma, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: light;
+	color: #202020;
 	text-align: justify;
 	max-width: 80%;
 	padding-left:10%;
@@ -61,12 +66,12 @@ h2 { /*event headings*/
 
 /* unvisited link */
 a:link {
-    color: #000000;
+    color: #202020;
 }
 
 /* visited link */
 a:visited {
-    color: #000000;
+    color: #202020;
 }
 
 /* mouse over link */

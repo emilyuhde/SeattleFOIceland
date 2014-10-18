@@ -45,7 +45,6 @@ h2 { /*event headings*/
 .cent {
 	font-family: "Open Sans", Tahoma, Arial, sans-serif;
 	font-size: 16px;
-	font-weight: light;
 	color: #202020;
 	text-align: center;
 	max-width: 80%;
@@ -56,7 +55,6 @@ h2 { /*event headings*/
 .just {
 	font-family: "Open Sans", Tahoma, Arial, sans-serif;
 	font-size: 16px;
-	font-weight: light;
 	color: #202020;
 	text-align: justify;
 	max-width: 80%;

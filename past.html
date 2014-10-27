@@ -26,11 +26,10 @@
 	<div class="event" ng-repeat="event in calendar.events" ng-show='!event.upcoming'>				
 		<h2>{{event.title}}</h2>
 		<div class="cent">
-			{{event.date}}<br/>
-			{{event.location}}<br/>
-			{{event.address1}}<br/>
-			{{event.address2}}<br/>
-			{{event.description}}<br/><br/>
+			{{event.date}}
+			<br/>{{event.location}}
+			<br/>{{event.address}}
+			<br/>{{event.description}}<br/><br/>
 		</div>
 	</div>
 

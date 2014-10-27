@@ -17,6 +17,8 @@
 
 #sphoto {
 	margin: 0px;
+	/*height: "25%"; this is bad, it is % of image size. Need this to be % of browser 
+	width: "100%"*/
 }
 
 body {

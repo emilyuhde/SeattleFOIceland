@@ -1,37 +1,52 @@
-<!DOCTYPE html>
-<html ng-app="calendar">
-
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=.8">
-	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-	<link href='site.css' rel='stylesheet'>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
-    <script type="text/javascript" src="calendar.js"></script>	
-	<title>Past Events</title>
-</head>
-
-<body ng-controller="CalendarController as calendar">
-	<div id ="toc"> 
-		<a href="index.html">home</a> | 
-		<a href="about.html">about</a> | 
+ <!DOCTYPE html>
+ <html>
+ 
+ <head>
+ 	<meta name="viewport" content="width=device-width, initial-scale=.8">
+ 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
+ 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+ 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+ 
+ 	<link href='site.css' rel='stylesheet'>
+ 	
+ 	<title>Past Events</title>
+ </head>
+ 
+ <body>
+ 	<div id ="toc"> 
+ 		<a href="index.html">home</a> | 
+ 		<a href="about.html">about</a> | 
 		<a href="sponsors.html">sponsors</a> | 
-		<a href="calendar.html">calendar</a> | 
-		<a href="contact.html">contact</a>
-	</div>
-		
-	<h1>Past Events</h1>
-	
-	<div class="event" ng-repeat="event in calendar.events" ng-show='!event.upcoming'>				
-		<h2>{{event.title}}</h2>
-		<div class="cent">
-			{{event.date}}
-			<br/>{{event.location}}
-			<br/>{{event.address}}
-			<br/>{{event.description}}<br/><br/>
-		</div>
-	</div>
-
-</body>
-</html>
+ 		<a href="calendar.html">calendar</a> | 
+ 		<a href="contact.html">contact</a>
+ 	</div>
+ 		
+ 	<h1>Past Events</h1>
+ 	
+ 	<div class="event">				
+ 		<h2>Our First Meeting!</h2>
+ 		<div class="cent">
+ 			Date: Sunday, October 12th at 7:00 pm
+ 			<br/>Location: 826 Seattle / Greenwood Space Travel Supply Co
+ 			<br/>8414 Greenwood Ave N, Seattle
+ 			<br/>(On Greenwood Ave, just south of 85th street.)
+ 			<br/>Agenda: Meet and greet followed by watching an Icelandic movie, Dj&#xFA;pi&eth;.<br/><br/>
+ 		</div>
+ 	
+ 		<h2>Taste Of Iceland - Seattle</h2>
+ 		<div class="cent">
+ 			Dates: October 9-12
+ 			<br/><a href="http://www.icelandnaturally.com/events/taste-of-iceland-in-seattle-2014">See the Taste of Iceland website for the full schedule and locations.</a>
+ 			<br/>We are attended the Taste of Iceland dinner at Dahlia Lounge 
+ 			<br/>on October 11th and the Reykjav&#xED;k Calling concert at 
+ 			<br/>Neumos on October 11th.<br/><br/>
+ 		</div>
+ 		
+ 		<h2>Our first (planning) meeting ever!</h2>
+ 		<div class="cent">
+ 			Date: Sunday, September 7th at 5 pm
+ 			<br/>Location: <a href="http://icelandicstudy.com/">Margr&#xE9;t</a>'s House<br/><br/>
+ 		</div>
+ 	</div>
+ </body>
+ </html>

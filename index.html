@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=.8">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=.8">
-	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-
-	<link href='site.css' rel='stylesheet'>
-	
-	<title>Seattle Friends of Iceland</title>
-</head>
-
-<body>
-
-	<div id="main" align="center">
-		<div id ="toc"> 
-		home | 
-		<a href="http://www.seattlefriendsoficeland.com\about.html">about</a> | 
-		<a href="http://www.seattlefriendsoficeland.com\sponsors.html">sponsors</a> | 			
-		<a href="http://www.seattlefriendsoficeland.com\calendar.html">calendar</a> | 
-		<a href="http://www.seattlefriendsoficeland.com\contact.html">contact</a>
-		</div>
+		<link href='site.css' rel='stylesheet'>
 		
-		<div onmouseover="changeToIcelandic()" onmouseout="changeToEnglish()">
-		<h1><span id="title">Seattle Friends of Iceland</span></h1>
+		<title>Seattle Friends of Iceland</title>
+	</head>
+
+	<body>
+
+		<div id="main" align="center">
+			<div id ="toc"> 
+			home | 
+			<a href="about.html">about</a> | 
+			<a href="sponsors.html">sponsors</a> | 			
+			<a href="calendar.html">calendar</a> | 
+			<a href="resources.html">resources</a> |
+			<a href="contact.html">contact</a>
+			</div>
+			
+			<div onmouseover="changeToIcelandic()" onmouseout="changeToEnglish()">
+			<h1><span id="title">Seattle Friends of Iceland</span></h1>
+			</div>
+					
+			<div id="sphoto">
+				<img src="http://www.seattlefriendsoficeland.com/mtn.jpg" alt="Eyjafjallaj&#xF6;kull from the south" height="25%" width="100%">
+			</div>
+			<div class="cent">
+			<br/>Seattle Friends of Iceland was founded in 2014.
+			We are a group of people who love Iceland and Icelandic
+			culture!
+			<br /> <br />
+			We are planning on having another Seattle Friends of Iceland
+			meeting this month. We will post the date and time once we
+			have finalized things!
+			</div>
 		</div>
-				
-		<div id="sphoto">
-			<img src="http://www.seattlefriendsoficeland.com/mtn.jpg" alt="Eyjafjallaj&#xF6;kull from the south" height="25%" width="100%">
-		</div>
-		<div class="cent">
-		<br/>Seattle Friends of Iceland was founded in 2014.
-		We are a group of people who love Iceland and Icelandic
-		culture!
-		</div>
-	</div>
-	<script>
-	function changeToIcelandic() {
-		document.getElementById("title").innerHTML = "Seattle &#xCD;slandsvinir";
-	}
-	
-	function changeToEnglish() {
-		document.getElementById("title").innerHTML = "Seattle Friends of Iceland";
-	}
-	</script>
-</body>
+		<script>
+		function changeToIcelandic() {
+			document.getElementById("title").innerHTML = "Seattle &#xCD;slandsvinir";
+		}
+		
+		function changeToEnglish() {
+			document.getElementById("title").innerHTML = "Seattle Friends of Iceland";
+		}
+		</script>
+	</body>
 </html>
